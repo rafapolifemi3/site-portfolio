@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim</title>
+    <h1 class="contato">Contato</h1>
+
+    <form class="form-contato" action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="numero">Número:</label>
+        <input type="text" id="numero" name="numero" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <input type="text" id="mensagem" name="mensagem" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <style>
+        body { /* Estilo do corpo da página */
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #8cd1f2, #396b93);
+    min-height: 100vh;
+}
+.menu a:hover { /* A cor muda quando o mouse passa por cima */
+    color: #3498db;
+}
+.menu { /* Distancia do menu do topo */
+    margin-top: -400px;
+}
+.menu a { /* Tamanho da letra do menu */
+    font-size: 20px;
+}    
+.contato {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2f0665;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+.form-contato {
+  max-width: 500px;
+  margin: 30px auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-contato label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #2f0665;
+}
+
+.form-contato input,
+.form-contato textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.form-contato button {
+  background-color: #2f0665;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-contato button:hover {
+  background-color: #4d1a99;
+}
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <ul>
+                <li><a href="pagina.html">Inicio</a></li>
+                <li><a href="sobremim.html">Sobre mim</a></li>
+                <li><a href="formacao.html">Formação Educacional</a></li>
+                <li><a href="projetos.html">Meus Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li> 
+            </ul>
+        </div>
+    </header>
+</body>
+</html>
